@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Todo } from "./models/Todo";
 
-function App() {
+export default function App() {
+
+  const todoArray: Todo[] = [
+    { id: 1, title: 'Aufgabe 1', completed: true },
+    { id: 2, title: 'Aufgabe 2', completed: false },
+    { id: 3, title: 'Aufgabe 3', completed: false },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <h1>React Schulung</h1>
     </div>
   );
-}
-
-export default App;
+};

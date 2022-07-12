@@ -1,0 +1,26 @@
+.todoitem {
+  line-height: 30px;
+  border: 1px solid darkgray;
+  padding: 10px;
+  margin: 2px 0;
+  position: relative;
+  height: 40px;
+
+  &__done {
+    color: green;
+  }
+
+  &__open {
+    color: red;
+  }
+
+  span {
+    font-height: 20px;
+  }
+
+  button {
+    position: absolute;
+    right: 15px;
+  }
+
+}
