@@ -1,5 +1,5 @@
-import React from 'react';
-import { Todo } from "./models/Todo";
+import React, { useEffect, useState } from 'react';
+import {Todo} from "./models/Todo";
 
 export default function App() {
 
@@ -8,6 +8,10 @@ export default function App() {
     { id: 2, title: 'Aufgabe 2', completed: false },
     { id: 3, title: 'Aufgabe 3', completed: false },
   ];
+
+
+
+
 
   return (
     <div>

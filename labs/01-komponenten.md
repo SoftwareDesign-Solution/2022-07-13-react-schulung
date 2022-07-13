@@ -1,19 +1,11 @@
 
-<details>
-<summary>Lösung anzeigen</summary>
-<p>
-
-****
-
-```typescript
-```
-
-</p>
-</details>
-
 # 1. Erstellen Sie eine Komponente mit den Parameter title, completed und geben diese in der App.tsx aus
 
 In der App.tsx befindet sich ein Array mit Aufgaben. Erstellen Sie dazu eine Komponente und geben die Aufgaben in der App.tsx aus
+
+Die Komponenten sollen am Ende ungefähr wie im nachfolgenden Screenshot aussehen.
+
+![Aufgabe 1 Komponente](images/Aufgabe1_Komponente.png)
 
 <details>
 <summary>Lösung anzeigen</summary>
@@ -104,8 +96,6 @@ ToDoItem.defaultProps = {
 </details>
 
 # 3. Erstellen Sie eine Komponente mit einem Formular zum Anlegen neuer Aufgaben
-
-- Bild
 
 <details>
 <summary>Lösung anzeigen</summary>
@@ -255,8 +245,6 @@ Installieren Sie hierzu die Library sass mit folgendem Befehl
 ```
 npm install sass
 ```
-
-- Bild
 
 <details>
 <summary>Lösung anzeigen</summary>
